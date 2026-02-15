@@ -4,7 +4,7 @@
 
 require("neo-tree").setup({
 	close_if_last_window = true, -- Cerrar neo-tree si es la última ventana
-	popup_border_style = "rounded",
+	popup_border_style = "single",
 	enable_git_status = true,
 	enable_diagnostics = true,
 
@@ -22,9 +22,9 @@ require("neo-tree").setup({
 			highlight = "NeoTreeIndentMarker",
 		},
 		icon = {
-			folder_closed = "",
-			folder_open = "",
-			folder_empty = "",
+			folder_closed = "",
+			folder_open = "",
+			folder_empty = "󰜌",
 			default = "",
 		},
 		modified = {

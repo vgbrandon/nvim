@@ -186,7 +186,7 @@ require("noice").setup({
 				height = 10,
 			},
 			border = {
-				style = "rounded",
+				style = "single",
 				padding = { 0, 1 },
 			},
 			win_options = {

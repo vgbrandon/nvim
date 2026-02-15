@@ -20,7 +20,7 @@ vim.diagnostic.config({
 	underline = true,
 	severity_sort = true,
 	float = {
-		border = "rounded",
+		border = "single",
 		source = "always",
 		header = "",
 		prefix = "",

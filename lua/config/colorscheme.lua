@@ -8,7 +8,7 @@ require("neopywal").setup({
 	use_wallust = false,
 
 	-- Estilos de código
-	transparent_background = false,
+	transparent_background = true,
 
 	-- Plugins soportados (habilitar solo los que uses)
 	plugins = {
